@@ -1,0 +1,262 @@
+/*==========GOOGLE FONTS==========*/
+/*===YESEVA FONT===*/
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+/*===POPPINS FONT===*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+/*===LOBSTER FONT===*/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/*===MANROF FONT===*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
+
+/*===========COMMON CSS==========*/
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===========HEADER PART START==========*/
+
+.header_content {
+  width: 50%;
+  float: left;
+  margin-top: 150px;
+}
+
+.header_content h1 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 80px;
+  position: relative;
+  margin-left: 12px;
+}
+
+.header_content h1::before {
+  position: absolute;
+  content: "";
+  height: 76%;
+  width: 4px;
+  top: 18px;
+  left: -10px;
+  background-color: #ff5959;
+  border-radius: 5px;
+}
+
+.header_content span {
+  color: #ffad5a;
+}
+
+.header_content p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+
+.header_img {
+  width: 50%;
+  float: right;
+}
+.header_img img {
+  width: 426px;
+  margin-left: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff5959;
+  color: #ffff;
+  border: 1px solid #ff5959;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/*==========MISSION PART==========*/
+
+.mission_heading {
+  padding-top: 50px;
+}
+
+.mission_heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: #13103a;
+  margin-bottom: 50px;
+}
+
+.mission_heading span {
+  color: #ffad5a;
+}
+
+.mission_paper {
+  width: 330px;
+  border-radius: 26px;
+  padding: 20px;
+  float: left;
+  margin: 0 5px;
+}
+
+.color_1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+.color_2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+.color_3 {
+  background-color: #fff4d6;
+}
+
+.mission_img img {
+  width: 126px;
+}
+
+.misssion_type h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 10px 0;
+}
+
+.mission_content p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*==========DEVELOP PART==========*/
+
+.develop {
+  padding-top: 60px;
+}
+
+.develop_img {
+  width: 40%;
+  float: left;
+}
+
+.develop_img img {
+  width: 400px;
+}
+
+.develop_content {
+  width: 60%;
+  float: left;
+  margin-top: 50px;
+}
+.cmn_heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.cmn_heading p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3e3e3e;
+  padding: 12px 0;
+}
+
+.develop_content button {
+  margin: 20px 0;
+}
+/*==========COMMUNITY PART==========*/
+
+.community {
+  padding-top: 50px;
+}
+
+.community_content {
+  width: 55%;
+  float: left;
+  padding-top: 50px;
+}
+
+.community_img {
+  width: 45%;
+  float: right;
+}
+
+.community_img img {
+  width: 400px;
+  float: right;
+}
+
+/*===========HIREME PART==========*/
+.hire_part {
+  padding-top: 50px;
+}
+.hire_img {
+  width: 50%;
+  float: left;
+}
+
+.hire_img img {
+  width: 400px;
+}
+
+.hire_content {
+  width: 50%;
+  float: left;
+}
+
+/*==========FOOTER PART==========*/
+.footer {
+  background-color: #0b0d17;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer_content h1 {
+  color: #ffff;
+  font-family: "Lobster", cursive;
+}
+.footer_content span {
+  color: #ff5959;
+}
+
+.footer_content p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
